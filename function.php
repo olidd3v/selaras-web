@@ -39,7 +39,7 @@ function lang($text) {
             'Detail Lengkap',
 
             'Job Vacancy' =>
-            'Lowongan Pekerjaan',
+            'Lowongan Kerja',
 
             'Selaras Recruitment was built on a simple belief—that the right talent has the power to transform the direction of a business.' =>
             'Selaras Recruitment dibangun atas keyakinan sederhana—bahwa talenta yang tepat memiliki kekuatan untuk mengubah arah sebuah bisnis.',
@@ -99,6 +99,27 @@ function lang($text) {
             'About' => 'Tentang',
             'Culture' => 'Budaya',
             'Home' => 'Beranda',
+            'Our Core' => 'Fondasi Kita',
+            'The principles that drive how we work and grow with our clients.' => 'Prinsip yang menjadi dasar cara kami bekerja dan berkembang bersama klien.',
+
+            'Integrity' => 'Integritas',
+            'We operate with honesty, transparency, and strong ethical principles in every process, building trust as the foundation of long-term partnerships.' => 'Kami menjalankan setiap proses dengan kejujuran, transparansi, dan prinsip etika yang kuat, membangun kepercayaan sebagai dasar kemitraan jangka panjang.',
+
+            'Precision' => 'Presisi',
+            'We approach every search with accuracy and attention to detail, ensuring each candidate is carefully selected and aligned with our clients’ specific needs.' => 'Kami menjalankan setiap pencarian dengan akurasi dan perhatian terhadap detail, memastikan setiap kandidat dipilih dengan tepat sesuai kebutuhan spesifik klien.',
+
+            'Partnership' => 'Kemitraan',
+            'We work closely with our clients as trusted advisors, fostering collaborative relationships to understand and support their long-term business goals.' => 'Kami bekerja erat dengan klien sebagai mitra terpercaya, membangun hubungan kolaboratif untuk memahami dan mendukung tujuan bisnis jangka panjang mereka.',
+
+            'Impact' => 'Dampak',
+            'We focus on delivering talent that creates real value—contributing not only to immediate needs but also to sustainable growth and organizational success.' => 'Kami berfokus menghadirkan talenta yang memberikan nilai nyata—tidak hanya untuk kebutuhan saat ini, tetapi juga untuk pertumbuhan berkelanjutan dan kesuksesan organisasi.',
+            'Core' => 'Inti',
+            'Others' => 'Lainnya',
+            'Psychological Test' => 'Tes Psikologi',
+            'Training Service'  => 'Layanan Pelatihan',
+            'Site Link' => 'Tautan Situs',
+            'Find Us' => 'Temukan Kami',
+            'Load More' => 'Lebih Banyak',
         ];
 
         return $translations[$text] ?? $text;
@@ -119,6 +140,12 @@ function base_url($atRoot = false, $atCore = false, $parse = false) {
     $url = $protocol . $host;
     
     return $url;
+}
+
+function home($path = ''){
+    $dir = str_replace(basename($_SERVER['SCRIPT_NAME']), '', $_SERVER['SCRIPT_NAME']);
+    $base = (isset($_SERVER['HTTPS']) ? 'https' : 'http') . '://' . $_SERVER['HTTP_HOST'] . $dir;
+    return rtrim($base, '/') . '/' . ltrim($path, '/');
 }
 
 ?>

@@ -9,8 +9,43 @@
 
 @media (max-width: 576px) {
     .nav-bar .navbar-light .navbar-brand img {
-        max-height: 4rem;
+        max-height: 5rem;
     }
+
+    .display-1 {
+        font-size: xx-large;
+    }
+
+    .wel {
+        margin-top: 1rem;
+    }
+
+    .we {
+        font-size: unset !important;
+    }
+
+    .custom-bg {
+        height: 7rem !important;
+    }
+
+    .h-mobile {
+        background-color: white;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    .jv.top {
+        margin-left: 0 !important;
+    }
+
+    .g-about {
+        padding: 0 !important;
+        background: transparent !important;
+    }
+}
+
+.wa-top {
+    bottom: 6rem !important;
 }
 
 :root {

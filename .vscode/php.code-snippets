@@ -1,0 +1,9 @@
+{
+    "Lang Helper PHP": {
+        "scope": "php",
+        "prefix": "lang",
+        "body": [
+            "<?= lang('${1:key}') ?>"
+        ]
+    }
+}

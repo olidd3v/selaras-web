@@ -5,10 +5,10 @@
                     <div class="col-lg-8 text-center text-lg-start mb-lg-0">
                         <div class="d-flex flex-wrap">
                             <div class="border-end border-primary pe-3">
-                                <a href="https://maps.app.goo.gl/EWYUkUaynhTZdaHX6" target="_blank" class="text-muted small"><i class="fas fa-map-marker-alt text-primary me-2"></i>Find A Location</a>
+                                <a href="https://maps.app.goo.gl/EWYUkUaynhTZdaHX6" target="_blank" class="text-muted small"><i class="fas fa-map-marker-alt text-primary me-2"></i><?= lang('Find Us') ?></a>
                             </div>
                             <div class="ps-3">
-                                <a href="info@selarasrecruitment.id" class="text-muted small"><i class="fas fa-envelope text-primary me-2"></i>info@selarasrecruitment.id</a>
+                                <a href="mailto:info@selarasrecruitment.id" class="text-muted small"><i class="fas fa-envelope text-primary me-2"></i>info@selarasrecruitment.id</a>
                             </div>
                         </div>
                     </div>

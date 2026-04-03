@@ -14,28 +14,26 @@
                             <a href="<?php base_url(); ?>" class="nav-item nav-link active"><?= lang('Home') ?></a>
                             <a href="#about" class="nav-item nav-link"><?= lang('About') ?></a>
                             <a href="#culture" class="nav-item nav-link"><?= lang('Culture') ?></a>
-                            <a href="#gallery" class="nav-item nav-link"><?= lang('Gallery') ?></a>
+                            <a href="#core" class="nav-item nav-link"><?= lang('Core') ?></a>
                             <div class="nav-item dropdown">
                                 <a href="#" class="nav-link" data-bs-toggle="dropdown">
-                                    <span class="dropdown-toggle">Pages</span>
+                                    <span class="dropdown-toggle"><?= lang('Others') ?></span>
                                 </a>
                                 <div class="dropdown-menu">
-                                    <a href="feature.html" class="dropdown-item">Our Features</a>
-                                    <a href="team.html" class="dropdown-item">Our team</a>
-                                    <a href="testimonial.html" class="dropdown-item">Testimonial</a>
-                                    <a href="FAQ.html" class="dropdown-item">FAQs</a>
-                                    <a href="404.html" class="dropdown-item">404 Page</a>
+                                    <a href="#" class="dropdown-item"><?= lang('Psychological Test') ?></a>
+                                    <a href="#" class="dropdown-item"><?= lang('Training Service') ?></a>
+                                    <a href="#gallery" class="dropdown-item"><?= lang('Gallery') ?></a>
                                 </div>
                             </div>
                             <a href="contact.html" class="nav-item nav-link">Contact</a>
                             <div class="nav-btn px-3">
                                 <!-- <button class="btn-search btn btn-primary btn-md-square rounded-circle flex-shrink-0" data-bs-toggle="modal" data-bs-target="#searchModal"><i class="fas fa-search"></i></button> -->
-                                <a href="#" class="btn btn-primary rounded-pill py-2 px-4 ms-3 flex-shrink-0"> <?= lang('Job Vacancy') ?></a>
+                                <a href="#" class="btn btn-primary py-2 px-4 ms-3 flex-shrink-0 jv-top" style="border-radius: .5rem;"> <?= lang('Job Vacancy') ?></a>
                             </div>
                         </div>
                     </div>
                     <div class="d-none d-xl-flex flex-shrink-0 ps-4">
-                        <a href="tel:(021) 29552655" class="btn btn-light btn-lg-square rounded-circle position-relative wow tada" data-wow-delay=".9s">
+                        <a href="tel:+622129552655" class="btn btn-light btn-lg-square rounded-circle position-relative wow tada" data-wow-delay=".9s" target="_blank">
                             <i class="fa fa-phone-alt fa-2x"></i>
                             <div class="position-absolute" style="top: 7px; right: 12px;">
                                 <span><i class="fa fa-comment-dots text-secondary"></i></span>
@@ -43,7 +41,7 @@
                         </a>
                         <div class="d-flex flex-column ms-3">
                             <span><?= lang('Call to Our Experts') ?></span>
-                            <a href="tel:(021) 29552655"><span class="text-dark">Free: + (021) 2955 2655</span></a>
+                            <a href="tel:+622129552655"><span class="text-dark">Free: (021) 2955 2655</span></a>
                         </div>
                     </div>
                 </nav>
