@@ -10,18 +10,18 @@
 
         <!-- Open Graph (Facebook, LinkedIn) -->
         <meta property="og:title" content="<?= lang('PT. Talenta Selaras Utama | Recruitment & Executive Search Indonesia') ?>">
-        <meta property="og:description" content="<?php echo lang('Trusted recruitment partner to find the best talent: Executive Search, Mass Recruitment, Project-Based Hiring, dan Staffing.') ?>">
+        <meta property="og:description" content="<?php echo lang('Trusted recruitment partner to find the best talent: Executive Search, Mass Recruitment, Project-Based Hiring, and Staffing.') ?>">
         <meta property="og:type" content="website">
         <meta property="og:url" content="https://www.selarasrecruitment.id/">
         <meta property="og:site_name" content="Selaras Recruitment">
 
-        <meta property="og:image" content="<?php home() ?>/asl/logo-selaras.png">
+        <meta property="og:image" content="<?= home() ?>asl/logo-selaras.png">
 
         <!-- Twitter -->
         <meta name="twitter:card" content="summary_large_image">
         <meta name="twitter:title" content="<?= lang('PT. Talenta Selaras Utama | Recruitment & Executive Search Indonesia') ?>">
         <meta name="twitter:description" content="<?= lang('Professional recruitment solutions for companies in Indonesia') ?>">
-        <meta name="twitter:image" content="<?php home() ?>/asl/logo-selaras.png">
+        <meta name="twitter:image" content="<?= home() ?>asl/logo-selaras.png">
 
         <!-- Google Web Fonts -->
         <link rel="preconnect" href="https://fonts.googleapis.com">

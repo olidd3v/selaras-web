@@ -8,13 +8,11 @@ function lang($text) {
             'PT. Talenta Selaras Utama (Selaras Recruitment) is a trusted partner for Executive Search, Mass Recruitment, Project-Based Hiring, and Temporary & Contract Staffing in Indonesia.' =>
             'PT. Talenta Selaras Utama (Selaras Recruitment) adalah mitra terpercaya untuk Executive Search, Mass Recruitment, Project-Based Hiring, serta Temporary & Contract Staffing di Indonesia.',
 
-            // Meta keywords
             'Indonesia recruitment, executive search, mass recruitment, staffing agency, PT Talenta Selaras Utama, selarasrecruitment.id' =>
-            'recruitment indonesia, executive search, mass recruitment, staffing agency, PT Talenta Selaras Utama, selarasrecruitment.id',
+            'Rekrutmen Indonesia, pencarian eksekutif, rekrutmen massal, agensi tenaga kerja, PT Talenta Selaras Utama, selarasrecruitment.id',
 
-            // Open Graph
             'Trusted recruitment partner to find the best talent: Executive Search, Mass Recruitment, Project-Based Hiring, and Staffing.' =>
-            'Trusted recruitment partner to find the best talent: Executive Search, Mass Recruitment, Project-Based Hiring, and Staffing.',
+            'Mitra rekrutmen terpercaya untuk menemukan talenta terbaik: Pencarian Eksekutif, Rekrutmen Massal, Rekrutmen Berbasis Proyek, dan Penyediaan Tenaga Kerja.',
 
             // Title
             'PT. Talenta Selaras Utama | Recruitment & Executive Search Indonesia' =>
