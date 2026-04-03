@@ -20,7 +20,7 @@
         <div class="container-fluid bg-light about mt-5 py-0 pb-4" id="about">
             <div class="container">
                 <div class="row g-5">
-                    <div class="col-xl-8 wow fadeInLeft" data-wow-delay="0.2s">
+                    <div class="col-xl-8 wow fadeInTop" data-wow-delay="0.3s">
                         <div class="about-item-content bg-white rounded p-5 h-100">
                             <h4 class="text-primary"><?= lang('About Us') ?></h4>
                             <h1 class="display-4 mb-4"><?= lang('Connecting Talent, Creating Impact') ?></h1>
@@ -38,7 +38,7 @@
                             <!-- <a class="btn btn-primary rounded-pill py-3 px-5" href="#">More Information</a> -->
                         </div>
                     </div>
-                    <div class="col-xl-4 wow fadeInRight h-mobile" data-wow-delay="0.2s">
+                    <div class="col-xl-4 wow fadeInTop h-mobile" data-wow-delay="0.2s">
                         <div class="bg-white rounded p-5 h-100 g-about">
                             <div class="row g-4 justify-content-center">
                                 <div class="col-4 col-sm-4 col-xl-12">

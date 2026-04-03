@@ -7,7 +7,7 @@
         <div class="carousel-caption">
             <div class="container">
                 <div class="row g-4 align-items-center">
-                    <div class="col-lg-12 animated fadeInLeft text-center">
+                    <div class="col-lg-12 animated wow fadeInTop text-center" data-wow-delay="0.2s">
                         <div class="text-sm-center">
                             <h4 class="text-white text-uppercase fw-bold mb-4 wel"><?= lang('Welcome To') ?> Selaras Recruitment</h4>
                             <h1 class="display-1 text-white mb-4"><?= lang('Connecting Great People With Great Companies') ?></h1>
