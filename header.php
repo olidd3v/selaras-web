@@ -11,7 +11,7 @@
                         <div class="text-sm-center">
                             <h4 class="text-white text-uppercase fw-bold mb-4 wel"><?= lang('Welcome To') ?> Selaras Recruitment</h4>
                             <h1 class="display-1 text-white mb-4"><?= lang('Connecting Great People With Great Companies') ?></h1>
-                            <p class="mb-2 fs-5 we">
+                            <p class="mb-4 fs-5 we">
                                 <?= lang('We help organizations find the right talent and empower professionals to achieve their career goals. With a strategic and personalized approach, Selaras Recruitment connects great people with great companies for long-term success.') ?>
                             </p>
                             <div class="d-flex justify-content-center justify-content-md-center flex-shrink-0 mb-4">
