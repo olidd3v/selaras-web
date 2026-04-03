@@ -15,13 +15,13 @@
         <meta property="og:url" content="https://www.selarasrecruitment.id/">
         <meta property="og:site_name" content="Selaras Recruitment">
 
-        <!-- <meta property="og:image" content="https://www.selarasrecruitment.id/assets/img/preview.jpg"> -->
+        <meta property="og:image" content="<?php home() ?>/asl/logo-selaras.png">
 
         <!-- Twitter -->
         <meta name="twitter:card" content="summary_large_image">
         <meta name="twitter:title" content="<?= lang('PT. Talenta Selaras Utama | Recruitment & Executive Search Indonesia') ?>">
         <meta name="twitter:description" content="<?= lang('Professional recruitment solutions for companies in Indonesia') ?>">
-        <!-- <meta name="twitter:image" content="https://www.selarasrecruitment.id/assets/img/preview.jpg"> -->
+        <meta name="twitter:image" content="<?php home() ?>/asl/logo-selaras.png">
 
         <!-- Google Web Fonts -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
