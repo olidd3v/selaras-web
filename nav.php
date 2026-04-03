@@ -6,9 +6,34 @@
                         <h1 class="text-primary mb-0 d-none">PT. Talenta Selaras Utama</h1>
                         <img src="asl/logo-selaras.png" alt="Logo">
                     </a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-                        <span class="fa fa-bars"></span>
-                    </button>
+                    <div class="d-flex align-items-center d-lg-none ms-auto gap-2">
+                        <div class="dropdown">
+                            <button class="btn btn-sm btn-primary color-white d-flex align-items-center gap-1" data-bs-toggle="dropdown" style="height: 4.5vh">
+                                <i class="fa fa-language"></i>
+                                <i class="fa fa-chevron-down" style="font-size:10px;"></i>
+                            </button>
+                            <ul class="dropdown-menu dropdown-menu-end">
+                                <?php
+                                    $languages = [
+                                        'en' => 'English',
+                                        'id' => 'Indonesia'
+                                    ];
+                                    ?>
+
+                                    <?php foreach($languages as $key => $label): ?>
+                                    <li>
+                                        <a class="dropdown-item <?= ($lang == $key) ? 'active bg-primary text-white' : '' ?>" href="?lang=<?= $key ?>">
+                                            <?= $label ?>
+                                        </a>
+                                    </li>
+                                <?php endforeach; ?>
+                            </ul>
+                        </div>
+
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                            <span class="fa fa-bars"></span>
+                        </button>
+                    </div>
                     <div class="collapse navbar-collapse" id="navbarCollapse">
                         <div class="navbar-nav mx-0 mx-lg-auto">
                             <a href="<?php base_url(); ?>" class="nav-item nav-link active"><?= lang('Home') ?></a>
@@ -25,7 +50,7 @@
                                     <a href="#gallery" class="dropdown-item"><?= lang('Gallery') ?></a>
                                 </div>
                             </div>
-                            <a href="contact.html" class="nav-item nav-link">Contact</a>
+                            <a href="contact.html" class="nav-item nav-link"><?= lang('Contact') ?></a>
                             <div class="nav-btn px-3">
                                 <!-- <button class="btn-search btn btn-primary btn-md-square rounded-circle flex-shrink-0" data-bs-toggle="modal" data-bs-target="#searchModal"><i class="fas fa-search"></i></button> -->
                                 <a href="#" class="btn btn-primary py-2 px-4 ms-3 flex-shrink-0 jv-top" style="border-radius: .5rem;"> <?= lang('Job Vacancy') ?></a>

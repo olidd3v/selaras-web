@@ -120,6 +120,7 @@ function lang($text) {
             'Site Link' => 'Tautan Situs',
             'Find Us' => 'Temukan Kami',
             'Load More' => 'Lebih Banyak',
+            'Contact' => 'Kontak',
         ];
 
         return $translations[$text] ?? $text;
