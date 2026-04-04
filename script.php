@@ -10,7 +10,7 @@
         
 
         <!-- Template Javascript -->
-        <script src="<?= home() ?>js/main.js"></script>
+        <script src="<?= home() ?>js/main.js?v=1"></script>
 
 		<script>
 			$(document).ready(function(){

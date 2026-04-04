@@ -45,6 +45,6 @@
         <link href="<?= home() ?>css/bootstrap.min.css" rel="stylesheet">
 
         <!-- Template Stylesheet -->
-        <link href="<?= home() ?>css/style.css" rel="stylesheet">
-        <link href="<?= home() ?>css/custom.css" rel="stylesheet">
+        <link href="<?= home() ?>css/style.css?v=2" rel="stylesheet">
+        <link href="<?= home() ?>css/custom.css?v=2" rel="stylesheet">
 </head>
