@@ -1,5 +1,12 @@
 <?php
 
+$PROD = true;
+
+if (!$PROD) {
+    require __DIR__ . '/maintenance.php';
+    exit;
+}
+
 $uri = trim(
     str_replace(dirname($_SERVER['SCRIPT_NAME']), '', parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH)),
     '/'
