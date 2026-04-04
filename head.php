@@ -46,5 +46,5 @@
 
         <!-- Template Stylesheet -->
         <link href="<?= home() ?>css/style.css?v=2" rel="stylesheet">
-        <link href="<?= home() ?>css/custom.css?v=2" rel="stylesheet">
+        <link href="<?= home() ?>css/custom.css?v=3" rel="stylesheet">
 </head>
