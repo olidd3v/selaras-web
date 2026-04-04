@@ -1,5 +1,5 @@
 <!-- Our Clients Start -->
-<div class="container-fluid py-5" id="client">
+<div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.4s" id="client">
     <div class="container text-center pb-2">
         <h4 class="text-primary"><?= lang('Our Client') ?></h4>
 		<h1 class="display-4 mb-4"><?= lang('Innovative Companies That Trust Us') ?></h1>
