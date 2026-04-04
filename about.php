@@ -3,7 +3,7 @@
             <div class="container">
                 <div class="row g-5">
                     <div class="col-xl-8">
-                        <div class="about-item-content bg-white rounded p-5 h-100 wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="about-item-content bg-white rounded p-4 h-100 wow fadeInUp" data-wow-delay="0.2s">
                             <h4 class="text-primary"><?= lang('About Us') ?></h4>
                             <h1 class="display-4 mb-4"><?= lang('Connecting Talent, Creating Impact') ?></h1>
                             <p class="text-justify"><?= lang('Selaras Recruitment was built on a simple belief—that the right talent has the power to transform the direction of a business.') ?></p>
@@ -21,10 +21,10 @@
                         </div>
                     </div>
                     <div class="col-xl-4 h-mobile">
-                        <div class="bg-white rounded p-5 h-100 g-about wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="bg-white rounded p-4 h-100 g-about wow fadeInUp" data-wow-delay="0.2s">
                             <div class="row g-4 justify-content-center">
                                 <div class="col-4 col-sm-4 col-xl-12 wow fadeInUp" data-wow-delay="0.3s">
-                                    <div class="rounded bg-light custom-bg" style="background-image: url('asl/us.jpeg');"></div>
+                                    <div class="rounded bg-light custom-bg" style="background-image: url('asl/us.jpeg'); background-position: top !important;"></div>
                                 </div>
                                 <div class="col-4 col-sm-4 col-xl-12 wow fadeInUp" data-wow-delay="0.3s">
                                     <div class="rounded bg-light custom-bg" style="background-image: url('asl/us1.jpeg');"></div>
