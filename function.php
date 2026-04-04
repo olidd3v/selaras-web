@@ -99,7 +99,7 @@ function lang($text) {
             'Culture' => 'Budaya',
             'Home' => 'Beranda',
             'Our Core' => 'Fondasi Kita',
-            'The principles that drive how we work and grow with our clients.' => 'Prinsip yang menjadi dasar cara kami bekerja dan berkembang bersama klien.',
+            'The principles that drive how we work and grow with our clients' => 'Prinsip yang menjadi dasar cara kami bekerja dan berkembang bersama klien',
 
             'Integrity' => 'Integritas',
             'We operate with honesty, transparency, and strong ethical principles in every process, building trust as the foundation of long-term partnerships.' => 'Kami menjalankan setiap proses dengan kejujuran, transparansi, dan prinsip etika yang kuat, membangun kepercayaan sebagai dasar kemitraan jangka panjang.',

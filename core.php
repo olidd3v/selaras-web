@@ -3,7 +3,7 @@
             <div class="container py-0">
                 <div class="text-center mx-auto pb-2 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
                     <h4 class="text-primary"><?= lang('Our Core') ?></h4>
-                    <h1 class="display-4 mb-4"><?= lang('The principles that drive how we work and grow with our clients.') ?></h1>
+                    <h1 class="display-4 mb-4 text-capitalize"><?= lang('The principles that drive how we work and grow with our clients') ?></h1>
                 </div>
                 <div class="row g-4">
                     
