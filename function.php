@@ -37,6 +37,7 @@ function lang($text) {
             'Detail Lengkap',
 
             'Job Vacancy' =>
+            //'Lowongan',
             'Lowongan Kerja',
 
             'Selaras Recruitment was built on a simple belief—that the right talent has the power to transform the direction of a business.' =>
@@ -79,10 +80,10 @@ function lang($text) {
             'Di Selaras Recruitment, kami tidak sekadar bertujuan memenuhi kebutuhan perekrutan—kami berkomitmen untuk menghadirkan solusi talenta yang berdampak dan berkelanjutan.',
 
             'Our Culture' =>
-            'Budaya Kita',
+            'Budaya Kami',
 
             'The Culture at' =>
-            'Budaya Kita Di',
+            'Budaya Kami Di',
 
             'Precision & Excellence' => 'Presisi & Keunggulan',
 
@@ -118,13 +119,76 @@ function lang($text) {
             'Site Link' => 'Tautan Situs',
             'Find Us' => 'Temukan Kami',
             'Load More' => 'Lebih Banyak',
-            'Contact' => 'Kontak',
+            'Contact' => 'Hubungi',
+            'Contact Us' => 'Hubungi Kami',
+            'Service' => 'Melayani',
+            'Our Services' => 'Layanan Kami',
+            'Client' => 'Klien',
+            'Our Client' => 'Klien Kami',
+            
+            'Innovative Companies That Trust Us' => 'Dipercaya oleh Perusahaan Inovatif',
+            'Professional Solutions Tailored for Your Business Growth' => 'Solusi Profesional yang Disesuaikan untuk Pertumbuhan Bisnis Anda',
+            'Executive Search' => 'Pencarian Eksekutif',
+            'We offer Executive Search services to help companies find and recruit top-level executives and senior leaders. Our approach is highly targeted, discreet, and designed to attract high-performing candidates, including those not actively seeking new opportunities.' => 'Kami menyediakan layanan Executive Search untuk membantu perusahaan menemukan dan merekrut eksekutif tingkat atas serta pemimpin senior. Pendekatan kami sangat terarah, rahasia, dan dirancang untuk menarik kandidat berkinerja tinggi, termasuk mereka yang tidak sedang aktif mencari peluang baru.',
+            'Key Features' => 'Fitur Utama',
+            'Focused on Senior Roles: C-level, directors, and key leadership positions.' => 'Fokus pada posisi senior: level C, direktur, dan posisi kepemimpinan utama.',
+            'Direct Headhunting: We proactively approach the best candidates in the market.' => 'Headhunting langsung: kami secara proaktif mendekati kandidat terbaik di pasar.',
+            'Confidential Process: Ensuring privacy for both clients and candidates.' => 'Proses rahasia: menjaga privasi klien dan kandidat.',
+            'Comprehensive Screening: In-depth interviews, assessments, and reference checks.' => 'Seleksi komprehensif: wawancara mendalam, asesmen, dan pengecekan referensi.',
+            'Why Choose Us' => 'Mengapa Memilih Kami',
+            'Access to exclusive executive talent' => 'Akses ke talenta eksekutif eksklusif',
+            'Tailored search based on your company`s culture and needs' => 'Pencarian yang disesuaikan dengan budaya dan kebutuhan perusahaan Anda',
+            'Faster, more accurate placement for critical roles' => 'Penempatan lebih cepat dan akurat untuk posisi krusial',
+            'Let`s discuss your needs' => 'Mari diskusikan kebutuhan Anda',
+            'Call Us' => 'Hubungi Kami',
+            'Interest & Talent' => 'Minat & Bakat',
+            'The flow of psychological test to determine an individual potential to direct their interest' => 'Alur tes psikologi untuk menentukan potensi individu dalam mengarahkan minatnya',
+            'Counseling' => 'Konseling',
+            'Helping, understanding, & handling about emotional problems, psychology, or someone behavior' => 'Membantu memahami dan menangani masalah emosional, psikologis, atau perilaku seseorang',
+            'Outing' => 'Outing',
+            'Activities in outdoor places to strengthen team relations' => 'Kegiatan di luar ruangan untuk mempererat hubungan tim',
+            'Training' => 'Pelatihan',
+            'Developing individual potential through training that matches compan`s needs' => 'Mengembangkan potensi individu melalui pelatihan yang sesuai dengan kebutuhan perusahaan',
+            'Organizational Development' => 'Pengembangan Organisasi',
+            'Helping companies enhance and develop their team performance for better results' => 'Membantu perusahaan meningkatkan dan mengembangkan kinerja tim untuk hasil yang lebih baik',
+            'Assessment Centre' => 'Pusat Asesmen',
+            'Identification of employee competence through profiling assessment centre executive search' => 'Identifikasi kompetensi karyawan melalui profiling di assessment centre',
+
+            'If you have any comments please apply now' => 'Jika Anda memiliki komentar, silakan kirimkan sekarang',
+            'Send Your Message' => 'Kirim Pesan Anda',
+            'Feel free to send us your questions or inquiries. Our team will get back to you as soon as possible.' 
+                => 'Silakan kirim pertanyaan atau kebutuhan Anda. Tim kami akan merespons secepat mungkin.',
+
+            'Send Message' => 'Kirim Pesan',
+            'Your Name' => 'Nama Anda',
+            'Your Email' => 'Email Anda',
+            'Your Phone' => 'Nomor Telepon Anda',
+            'Subject' => 'Subjek',
+            'Message' => 'Pesan',
+            'Name' => 'Nama',
+            'Email' => 'Email',
+            'Telepon' => 'Telepon',
+            'Subject' => 'Subjek',
+            'Name, Phone, Subject, and Message are required fields.' => 'Nama, Telepon, Subjek, dan Pesan wajib diisi',
+            'Close' => 'Tutup',
+            'Start Your Career With Us Today' => 'Mulai Karier Anda Bersama Kami Hari Ini'
         ];
 
         return $translations[$text] ?? $text;
     }
 
     return $text;
+}
+
+function isActive($segment){
+    $path = rtrim(parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH), '/');
+    $base = rtrim(str_replace(basename($_SERVER['SCRIPT_NAME']), '', $_SERVER['SCRIPT_NAME']), '/');
+
+    if($segment === 'home'){
+        return $path === $base ? 'active' : '';
+    }
+
+    return strpos($path, $segment) !== false ? 'active' : '';
 }
 
 function base_url($atRoot = false, $atCore = false, $parse = false) {

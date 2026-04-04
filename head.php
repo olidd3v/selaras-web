@@ -32,19 +32,19 @@
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
 
-        <link rel="icon" type="image/png" sizes="32x32" href="asl/favi.jpg">
-        <link rel="icon" type="image/png" sizes="16x16" href="asl/favi.jpg">
-        <link rel="apple-touch-icon" sizes="180x180" href="asl/favi.jpg">
+        <link rel="icon" type="image/png" sizes="32x32" href="<?= home() ?>asl/favi.jpg">
+        <link rel="icon" type="image/png" sizes="16x16" href="<?= home() ?>asl/favi.jpg">
+        <link rel="apple-touch-icon" sizes="180x180" href="<?= home() ?>asl/favi.jpg">
 
         <!-- Libraries Stylesheet -->
-        <link rel="stylesheet" href="lib/animate/animate.min.css"/>
-        <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
-        <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="<?= home() ?>lib/animate/animate.min.css"/>
+        <link href="<?= home() ?>lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+        <link href="<?= home() ?>lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
 
         <!-- Customized Bootstrap Stylesheet -->
-        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="<?= home() ?>css/bootstrap.min.css" rel="stylesheet">
 
         <!-- Template Stylesheet -->
-        <link href="css/style.css" rel="stylesheet">
-        <link href="css/custom.css" rel="stylesheet">
+        <link href="<?= home() ?>css/style.css" rel="stylesheet">
+        <link href="<?= home() ?>css/custom.css" rel="stylesheet">
 </head>

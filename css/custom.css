@@ -44,6 +44,22 @@
     }
 }
 
+.clients-carousel .item {
+    height: 120px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.clients-carousel .item img {
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: contain;
+}
+
+.navbar-nav {
+    text-wrap-mode: nowrap;
+}
+
 .wa-top {
     bottom: 6rem !important;
 }
@@ -131,4 +147,31 @@
 
 .gallery-culture .item:hover img {
     transform: scale(1.08);
+}
+
+.glass-card {
+    background: rgba(255, 255, 255, 0.05) !important;
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.2) !important;
+    border-radius: 16px !important;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.glass-card:hover {
+    transform: translateY(-5px);
+    background: rgba(255, 255, 255, 0.08) !important;
+}
+
+.contact .contact-img::after {
+    background: rgb(10 58 94) !important;
+}
+
+.dropdown-item.active {
+    background: var(--bs-primary) !important;
+}
+
+.nav-link.active{
+    color: var(--bs-primary) !important;
 }

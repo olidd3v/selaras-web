@@ -17,7 +17,7 @@
                             <div class="d-flex border-end border-primary pe-3">
                                 <a class="btn p-0 text-primary me-0" href="https://id.linkedin.com/company/selarasrecruitment" target="_blank"><i class="fab fa-linkedin-in"></i></a>
                             </div>
-                            <div class="dropdown ms-3">
+                            <div class="dropdown ms-3 lang">
                                 <?php
                                     $lang = isset($_GET['lang']) ? $_GET['lang'] : 'en';
                                 ?>

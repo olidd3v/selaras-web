@@ -2,9 +2,9 @@
         <div class="container-fluid nav-bar px-0 px-lg-4 py-lg-0">
             <div class="container">
                 <nav class="navbar navbar-expand-lg navbar-light"> 
-                    <a href="#" class="navbar-brand p-0">
+                    <a href="<?= home(); ?>" class="navbar-brand p-0">
                         <h1 class="text-primary mb-0 d-none">PT. Talenta Selaras Utama</h1>
-                        <img src="asl/logo-selaras.png" alt="Logo">
+                        <img src="<?= home() ?>asl/logo-selaras.png" alt="Logo">
                     </a>
                     <div class="d-flex align-items-center d-lg-none ms-auto gap-2">
                         <div class="dropdown">
@@ -36,24 +36,28 @@
                     </div>
                     <div class="collapse navbar-collapse" id="navbarCollapse">
                         <div class="navbar-nav mx-0 mx-lg-auto">
-                            <a href="<?php base_url(); ?>" class="nav-item nav-link active"><?= lang('Home') ?></a>
-                            <a href="#about" class="nav-item nav-link"><?= lang('About') ?></a>
-                            <a href="#culture" class="nav-item nav-link"><?= lang('Culture') ?></a>
-                            <a href="#core" class="nav-item nav-link"><?= lang('Core') ?></a>
-                            <div class="nav-item dropdown">
-                                <a href="#" class="nav-link" data-bs-toggle="dropdown">
+                            <a href="<?= home(); ?>" class="nav-item nav-link <?= isActive('home') ?>">
+                                <?= lang('Home') ?>
+                            </a>
+                            <a href="#about" class="nav-item nav-link"><?= lang('About Us') ?></a>
+                            <a href="#service" class="nav-item nav-link"><?= lang('Our Services') ?></a>
+                            <div class="nav-item dropdown lang">
+                                <a href="#" class="nav-link <?= isActive('contact') ?>" data-bs-toggle="dropdown">
                                     <span class="dropdown-toggle"><?= lang('Others') ?></span>
                                 </a>
                                 <div class="dropdown-menu">
-                                    <a href="#" class="dropdown-item"><?= lang('Psychological Test') ?></a>
-                                    <a href="#" class="dropdown-item"><?= lang('Training Service') ?></a>
+                                    <!--<a href="#" class="dropdown-item"><?= lang('Psychological Test') ?></a>-->
+                                    <!--<a href="#" class="dropdown-item"><?= lang('Training Service') ?></a>-->
+                                    <a href="<?= home() ?>contact" class="dropdown-item <?= isActive('contact') ?>"><?= lang('Contact Us') ?></a>
+                                    <a href="#culture" class="dropdown-item"><?= lang('Our Culture') ?></a>
                                     <a href="#gallery" class="dropdown-item"><?= lang('Gallery') ?></a>
                                 </div>
                             </div>
-                            <a href="contact.html" class="nav-item nav-link"><?= lang('Contact') ?></a>
+                            <a href="#core" class="nav-item nav-link"><?= lang('Core') ?></a>
+                            <a href="#client" class="nav-item nav-link"><?= lang('Client') ?></a>
                             <div class="nav-btn px-3">
                                 <!-- <button class="btn-search btn btn-primary btn-md-square rounded-circle flex-shrink-0" data-bs-toggle="modal" data-bs-target="#searchModal"><i class="fas fa-search"></i></button> -->
-                                <a href="#" class="btn btn-primary py-2 px-4 ms-3 flex-shrink-0 jv-top" style="border-radius: .5rem;"> <?= lang('Job Vacancy') ?></a>
+                                <a href="<?= home() ?>job-vacancy" class="btn btn-primary py-2 px-4 ms-3 flex-shrink-0 jv-top" style="border-radius: .5rem;"> <?= lang('Job Vacancy') ?></a>
                             </div>
                         </div>
                     </div>

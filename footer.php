@@ -7,9 +7,9 @@
                             <div class="row g-4">
                                 <div class="col-md-6 col-lg-6 col-xl-5">
                                     <div class="footer-item">
-                                        <a href="<?php base_url(); ?>" class="p-0">
+                                        <a href="<?= home() ?>" class="p-0">
                                             <h3 class="text-white">
-												<img src="asl/favi.png" style="filter: brightness(0) invert(1);">
+												<img src="<?= home() ?>asl/favi.png" style="filter: brightness(0) invert(1);">
 												Selaras Recruitment
 											</h3>
                                             <!-- <img src="img/logo.png" alt="Logo"> -->
@@ -26,7 +26,7 @@
                                 <div class="col-md-6 col-lg-6 col-xl-3">
                                     <div class="footer-item">
                                         <h4 class="text-white mb-4"><?= lang('Site Link') ?></h4>
-                                        <a href="<?php base_url(); ?>"><i class="fas fa-angle-right me-2"></i> <?= lang('Home') ?></a>
+                                        <a href="<?= home() ?>"><i class="fas fa-angle-right me-2"></i> <?= lang('Home') ?></a>
                                         <a href="#about"><i class="fas fa-angle-right me-2"></i> <?= lang('About') ?></a>
                                         <a href="#culture"><i class="fas fa-angle-right me-2"></i> <?= lang('Culture') ?></a>
                                         <a href="#core"><i class="fas fa-angle-right me-2"></i> <?= lang('Core') ?></a>
@@ -53,21 +53,33 @@
                         <div class="footer-item">
                             <h4 class="text-white mb-4"><?= lang('Find Us') ?></h4>
                             <div class="text-white mb-2 d-flex align-items-start">
-								<i class="fas fa-map-marker-alt me-2 mt-1"></i>
-								<span>Pondok Indah Office Tower, Jl. Sultan Iskandar Muda 5. Level 12, Pd. Pinang, Kec. Kebayoran Lama, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12310</span>
-							</div>
+                                <i class="fas fa-map-marker-alt me-2 mt-1"></i>
+                                <span>(Head Office) Jl. Sultan Iskandar Muda No. 5, Pondok Indah Office Tower Level 12, Kel. Pd. Pinang, Kec. Kebayoran Lama, Jakarta Selatan 12310</span>
+                            </div>
 
-							<div class="text-white mb-2 d-flex align-items-center">
-								<a href="https://wa.me/6287787094437" target="_blank" rel="noopener noreferrer">
-									<i class="fab fa-whatsapp me-2"></i>
-									<span>+62 877 8709 4437</span>
-								</a>
-							</div>
-
-							<div class="text-white mb-2 d-flex align-items-center">
+                            <div class="text-white mb-2 d-flex align-items-center">
 								<a href="tel:+622129552655" target="_blank" rel="noopener noreferrer">
 									<i class="fas fa-phone me-2"></i>
 									<span>(021) 2955 2655</span>
+								</a>
+							</div>
+
+                            <div class="text-white mb-2 d-flex align-items-start">
+                                <i class="fas fa-map-marker-alt me-2 mt-1"></i>
+                                <span>(Branch Office) Jl. Raya Pajajaran No. 25C, Kel. Baranangsiang, Kec. Bogor Timur, Kota Bogor 16143</span>
+                            </div>
+
+                            <div class="text-white mb-2 d-flex align-items-center">
+								<a href="tel:+622512020281" target="_blank" rel="noopener noreferrer">
+									<i class="fas fa-phone me-2"></i>
+									<span>(0251) 2020 281</span>
+								</a>
+							</div>
+
+                            <div class="text-white mb-2 d-flex align-items-center">
+								<a href="https://wa.me/6287787094437" target="_blank" rel="noopener noreferrer">
+									<i class="fab fa-whatsapp me-2"></i>
+									<span>+62 877 8709 4437</span>
 								</a>
 							</div>
 
@@ -90,9 +102,13 @@
             <div class="container">
                 <div class="row g-4 align-items-center">
                     <div class="col-md-12 text-center mb-md-0">
-                        <span class="text-body"><a href="<?php base_url(); ?>" class="text-white"><?= date('Y') ?> <i class="fas fa-copyright text-light me-2"></i>Selaras Recruitment</a>, All right reserved.</span>
+                        <span class="text-body text-white"><a href="<?php base_url(); ?>" class="text-white"><?= date('Y') ?> <i class="fas fa-copyright text-light me-2"></i>Selaras Recruitment</a>, <span class="text-white">All right reserved</span>.</span>
                     </div>
                 </div>
             </div>
         </div>
         <!-- Copyright End -->
+
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-primary btn-lg-square rounded-circle back-to-top"><i class="fa fa-arrow-up"></i></a>   
+        <a href="https://wa.me/6287787094437" target="_blank" class="btn btn-primary btn-lg-square rounded-circle back-to-top wa-top"><i class="bi bi-whatsapp"></i></a>   
