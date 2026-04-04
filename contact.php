@@ -145,7 +145,7 @@
 			}
 
 			const text = `<?= lang('Name') ?>: ${name}%0A<?= lang('Email') ?>: ${email}%0A<?= lang('Telepon') ?>: ${phone}%0A<?= lang('Subject') ?>: ${subject}%0A<?= lang('Message') ?>: ${message}`;
-			const wa = '6287787094437';
+			const wa = '6282121244210';
 
 			window.open(`https://wa.me/${wa}?text=${text}`, '_blank');
 		});

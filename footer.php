@@ -79,9 +79,9 @@
 							</div>
 
                             <div class="text-white mb-2 d-flex align-items-center">
-								<a href="https://wa.me/6287787094437" target="_blank" rel="noopener noreferrer">
+								<a href="https://wa.me/6282121244210" target="_blank" rel="noopener noreferrer">
 									<i class="fab fa-whatsapp me-2"></i>
-									<span>+62 877 8709 4437</span>
+									<span>+62 821 2124 4210</span>
 								</a>
 							</div>
 
@@ -113,4 +113,4 @@
 
         <!-- Back to Top -->
         <a href="#" class="btn btn-primary btn-lg-square rounded-circle back-to-top"><i class="fa fa-arrow-up"></i></a>   
-        <a href="https://wa.me/6287787094437" target="_blank" class="btn btn-primary btn-lg-square rounded-circle back-to-top wa-top"><i class="bi bi-whatsapp"></i></a>   
+        <a href="https://wa.me/6282121244210" target="_blank" class="btn btn-primary btn-lg-square rounded-circle back-to-top wa-top"><i class="bi bi-whatsapp"></i></a>   

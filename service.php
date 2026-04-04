@@ -65,7 +65,7 @@
 							<h6 class="text-white mb-3"><?= lang('Let`s discuss your needs') ?></h6>
 							<div class="row g-2">
 								<div class="col">
-									<a href="https://wa.me/6287787094437" class="btn btn-light rounded-half w-100">
+									<a href="https://wa.me/6282121244210" class="btn btn-light rounded-half w-100">
 										<i class="fab fa-whatsapp me-2"></i> WhatsApp
 									</a>
 								</div>

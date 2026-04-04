@@ -20,6 +20,14 @@
             <div class="item"><img src="asl/ptsuryabumipermata.png" alt="PT Surya Bumi Permata" class="img-fluid"></div>
             <div class="item"><img src="asl/cheesechicken.jpeg" alt="Cheese Chicken" class="img-fluid"></div>
             <div class="item"><img src="asl/pemasyarakatan.png" alt="Pemasyarakatan" class="img-fluid"></div>
+            <div class="item"><img src="asl/fleksindo.jpeg" alt="Fleksindo" class="img-fluid"></div>
+            <div class="item"><img src="asl/okaya.jpeg" alt="Fleksindo" class="img-fluid"></div>
+            <div class="item"><img src="asl/bobst.jpeg" alt="BOBST" class="img-fluid"></div>
+            <div class="item"><img src="asl/central.jpeg" alt="Central" class="img-fluid"></div>
+            <div class="item"><img src="asl/okamura.jpeg" alt="Okamura" class="img-fluid"></div>
+            <div class="item"><img src="asl/eneos.jpeg" alt="ENEOS" class="img-fluid"></div>
+            <div class="item"><img src="asl/ot.jpeg" alt="OT" class="img-fluid"></div>
+            <div class="item"><img src="asl/garudametalindo.jpeg" alt="Garuda Metalindo" class="img-fluid"></div>
         </div>
     </div>
 </div>
