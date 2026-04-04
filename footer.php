@@ -27,11 +27,13 @@
                                     <div class="footer-item">
                                         <h4 class="text-white mb-4"><?= lang('Site Link') ?></h4>
                                         <a href="<?= home() ?>"><i class="fas fa-angle-right me-2"></i> <?= lang('Home') ?></a>
-                                        <a href="#about"><i class="fas fa-angle-right me-2"></i> <?= lang('About') ?></a>
-                                        <a href="#culture"><i class="fas fa-angle-right me-2"></i> <?= lang('Culture') ?></a>
+                                        <a href="#about"><i class="fas fa-angle-right me-2"></i> <?= lang('About Us') ?></a>
+                                        <a href="#service"><i class="fas fa-angle-right me-2"></i> <?= lang('Our Services') ?></a>
+                                        <a href="#culture"><i class="fas fa-angle-right me-2"></i> <?= lang('Our Culture') ?></a>
+                                        <a href="<?= home() ?>contact"><i class="fas fa-angle-right me-2"></i> <?= lang('Contact Us') ?></a>
+                                        <a href="<?= home() ?>job-vacancy"><i class="fas fa-angle-right me-2"></i> <?= lang('Job Vacancy') ?></a>
                                         <a href="#core"><i class="fas fa-angle-right me-2"></i> <?= lang('Core') ?></a>
-                                        <a href="#"><i class="fas fa-angle-right me-2"></i> <?= lang('Psychological Test') ?></a>
-                                        <a href="#"><i class="fas fa-angle-right me-2"></i> <?= lang('Training Service') ?></a>
+                                        <a href="#client"><i class="fas fa-angle-right me-2"></i> <?= lang('Client') ?></a>
                                         <a href="#gallery"><i class="fas fa-angle-right me-2"></i> <?= lang('Gallery') ?></a>
                                     </div>
                                 </div>
