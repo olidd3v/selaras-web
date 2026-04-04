@@ -22,6 +22,6 @@ switch ($uri) {
 
     default:
         http_response_code(404);
-        require '404.html';
+        require '404.php';
         break;
 }
